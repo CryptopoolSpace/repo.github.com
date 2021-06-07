@@ -1,29 +1,3 @@
-/* Template Name: Aeshio - Responsive bootsrap 4 Cryptocurrency Landing Page Template
-   Author: Zoyothemes
-   Version: 1.0.0
-   Created: March 2019
-   File Description: Main Css file of the template
-*/
-/****************************************\
-
-01.general
-02.helper
-03.components
-04.menu
-05.home
-06.services
-07.about
-08.counter
-09.portfolio
-10.resume
-11.skill
-12.client
-13.blog
-14.contact
-15.footer
-16.resposive
-
-*****************************************/
 @import url("https://fonts.googleapis.com/css?family=Muli:400,400i,600,600i,700,700i,800,800i");
 body {
   font-family: "Muli", sans-serif;
@@ -57,7 +31,6 @@ p {
 }
 
 #preloader {
-  position: fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -1510,3 +1483,95 @@ textarea.form-control {
     height: 80px;
   }
 }
+
+.z-50 {
+  z-index: 50;
+}
+
+.top-24 {
+  top: 4rem;
+}
+
+.right-0 {
+  right: -20px;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.bg-orange-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(251,146,60,var(--tw-bg-opacity));
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.flex {
+  display: flex;
+}
+
+.z-20 {
+  z-index: 20;
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgba(255,255,255,var(--tw-text-opacity));
+}
+
+.px-1 {
+  padding-left: .25rem;
+  padding-right: .25rem;
+}
+
+.py-1 {
+  padding-top: .25rem;
+  padding-bottom: .25rem;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.animate-ping {
+  animation: ping 1s cubic-bezier(0,0,.2,1) infinite;
+}
+
+.w-2 {
+  width: .5rem;
+}
+
+.h-2 {
+  height: .5rem;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.space-x-2>:not([hidden])~:not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(.5rem * var(--tw-space-x-reverse));
+  margin-left: calc(.5rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.size-12 {
+  font-size:12px;
+}
+
+@keyframes ping{75%,to{transform:scale(2);opacity:0}}
